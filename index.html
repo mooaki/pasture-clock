@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eff4dc">
+  <title>放牧時計</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">PASTURE CLOCK</p>
+      <h1>放牧時計</h1>
+      <p class="intro">4つの牧草地の牛たちが、時刻を知らせます。</p>
+    </header>
+
+    <section class="pasture" aria-label="牛の頭数で時刻を表す牧草地">
+      <div class="paddock shade-1" data-place="0" aria-label="時の十の位"></div>
+      <div class="paddock shade-2" data-place="1" aria-label="時の一の位"></div>
+      <div class="paddock shade-3" data-place="2" aria-label="分の十の位"></div>
+      <div class="paddock shade-4" data-place="3" aria-label="分の一の位"></div>
+    </section>
+
+    <footer>
+      <span class="sun" aria-hidden="true">☀</span>
+      <p>左から「時・時・分・分」</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
